@@ -1,5 +1,5 @@
 var generator = require("template-form-builder-angularjs/template/generate-form-angularjs");
-var workspaceManager = require("workspace/v4/manager");
+var workspaceManager = require("platform/v4/workspace");
 
 var workspace = __context.get('workspace');
 var project = __context.get('project');

@@ -4,7 +4,7 @@ exports.generate = function(workspaceName, projectName, filePath) {
         return null;
     }
 
-    var workspaceManager = require("workspace/v4/manager");
+    var workspaceManager = require("platform/v4/workspace");
     var contents = workspaceManager.getWorkspace(workspaceName)
         .getProject(projectName).getFile(filePath).getContent();
 
